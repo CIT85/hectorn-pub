@@ -2,28 +2,95 @@ body {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    background: rgb(128, 109, 84);
-    color: rgb(26, 25, 25);
+    background-color: rgb(223, 208, 180);
 }
-h1 {
+
+.header h1 {
+    margin: 1em;
     text-align: center;
     font-style: italic;
     text-decoration: underline;
-    
+    outline: 3px dashed;
+    outline-offset: -1px;
 }
+
+.header ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
 h2 {
     text-align: center;
     text-decoration: underline;
 }
 
-a{
-    color: rgb(250,106,39);
+a {
+    color: hsl(207, 44%, 49%);
 }
 
-a:visited{ 
-    color: rgb(250, 300, 39);
+a:visited {
+    color: purple;
 }
 
-a:hover, a:active {
-    color: #EEE;
+a:hover, a:focus {
+    color: hsl(207, 44%, 49% 0.8%);
+}
+
+a:active {
+    color: red;
+}
+
+.table {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    outline: 2px solid;
+    outline-offset: -1px;
+    width: 100%;
+    outline: 2px solid red;
+    outline-offset: -6px;
+}
+
+
+.table th {
+    background-color: #d4505048;
+    border: 2px solid;
+    padding: 8px;
+    text-align: center;
+}
+
+.table tr {
+    border: 2px solid;
+}
+
+.table td {
+    padding: 8px;
+    border: 2px solid;
+}
+
+.table caption {
+    outline: 2px solid;
+    background-color: cornflowerblue;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image {
+    display: block;
+    margin: auto;
+    border: 4px dashed;
+}
+
+figcaption {
+    text-align: center;
+}
+
+form fieldset {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
 }
