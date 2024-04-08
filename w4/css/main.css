@@ -1,0 +1,145 @@
+/* CSS HEX */
+--papaya-whip: #fff1d6ff;
+--buff: #ecbd83ff;
+--lion: #b6967cff;
+--tawny: #c6612fff;
+--burnt-umber: #9a301dff;
+
+/* CSS HSL */
+--papaya-whip: hsla(40, 100%, 92%, 1);
+--buff: hsla(33, 73%, 72%, 1);
+--lion: hsla(27, 28%, 60%, 1);
+--tawny: hsla(20, 62%, 48%, 1);
+--burnt-umber: hsla(9, 68%, 36%, 1);
+
+/* SCSS HEX */
+$papaya-whip: #fff1d6ff;
+$buff: #ecbd83ff;
+$lion: #b6967cff;
+$tawny: #c6612fff;
+$burnt-umber: #9a301dff;
+
+/* SCSS HSL */
+$papaya-whip: hsla(40, 100%, 92%, 1);
+$buff: hsla(33, 73%, 72%, 1);
+$lion: hsla(27, 28%, 60%, 1);
+$tawny: hsla(20, 62%, 48%, 1);
+$burnt-umber: hsla(9, 68%, 36%, 1);
+
+/* SCSS RGB */
+$papaya-whip: rgba(255, 241, 214, 1);
+$buff: rgba(236, 189, 131, 1);
+$lion: rgba(182, 150, 124, 1);
+$tawny: rgba(198, 97, 47, 1);
+$burnt-umber: rgba(154, 48, 29, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
+$gradient-right: linear-gradient(90deg, #fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
+$gradient-bottom: linear-gradient(180deg, #fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
+$gradient-left: linear-gradient(270deg, #fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
+$gradient-top-right: linear-gradient(45deg, #fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
+$gradient-bottom-right: linear-gradient(135deg, #fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
+$gradient-top-left: linear-gradient(225deg, #fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
+$gradient-bottom-left: linear-gradient(315deg, #fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
+$gradient-radial: radial-gradient(#fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
+
+
+
+
+body {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: papayawhip;
+}
+
+.header h1 {
+    margin: 1em;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    outline: 3px dashed;
+    outline-offset: -1px;
+}
+
+.header ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+a {
+    color: hsl(207, 44%, 49%);
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover, a:focus {
+    color: hsl(207, 44%, 49% 0.8%);
+}
+
+a:active {
+    color: red;
+}
+
+.table {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    outline: 2px solid;
+    outline-offset: -1px;
+    width: 100%;
+    outline: 2px solid red;
+    outline-offset: -6px;
+}
+
+
+.table th {
+    background-color: #d4505048;
+    border: 2px solid;
+    padding: 8px;
+    text-align: center;
+}
+
+.table tr {
+    border: 2px solid;
+}
+
+.table td {
+    padding: 8px;
+    border: 2px solid;
+}
+
+.table caption {
+    outline: 2px solid;
+    background-color: cornflowerblue;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image {
+    display: block;
+    margin: auto;
+    border: 4px dashed;
+}
+
+figcaption {
+    text-align: center;
+}
+
+form fieldset {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
