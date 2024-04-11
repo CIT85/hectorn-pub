@@ -1,145 +1,162 @@
-/* CSS HEX */
+/* CSS coolors template */
 --papaya-whip: #fff1d6ff;
 --buff: #ecbd83ff;
 --lion: #b6967cff;
 --tawny: #c6612fff;
 --burnt-umber: #9a301dff;
 
-/* CSS HSL */
---papaya-whip: hsla(40, 100%, 92%, 1);
---buff: hsla(33, 73%, 72%, 1);
---lion: hsla(27, 28%, 60%, 1);
---tawny: hsla(20, 62%, 48%, 1);
---burnt-umber: hsla(9, 68%, 36%, 1);
-
-/* SCSS HEX */
-$papaya-whip: #fff1d6ff;
-$buff: #ecbd83ff;
-$lion: #b6967cff;
-$tawny: #c6612fff;
-$burnt-umber: #9a301dff;
-
-/* SCSS HSL */
-$papaya-whip: hsla(40, 100%, 92%, 1);
-$buff: hsla(33, 73%, 72%, 1);
-$lion: hsla(27, 28%, 60%, 1);
-$tawny: hsla(20, 62%, 48%, 1);
-$burnt-umber: hsla(9, 68%, 36%, 1);
-
-/* SCSS RGB */
-$papaya-whip: rgba(255, 241, 214, 1);
-$buff: rgba(236, 189, 131, 1);
-$lion: rgba(182, 150, 124, 1);
-$tawny: rgba(198, 97, 47, 1);
-$burnt-umber: rgba(154, 48, 29, 1);
-
-/* SCSS Gradient */
-$gradient-top: linear-gradient(0deg, #fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
-$gradient-right: linear-gradient(90deg, #fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
-$gradient-bottom: linear-gradient(180deg, #fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
-$gradient-left: linear-gradient(270deg, #fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
-$gradient-top-right: linear-gradient(45deg, #fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
-$gradient-bottom-right: linear-gradient(135deg, #fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
-$gradient-top-left: linear-gradient(225deg, #fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
-$gradient-bottom-left: linear-gradient(315deg, #fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
-$gradient-radial: radial-gradient(#fff1d6ff, #ecbd83ff, #b6967cff, #c6612fff, #9a301dff);
-
-
-
-
+/* Apply styles to the entire page */
 body {
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px; /* Set font size for the entire page */
+    font-family: Arial, Helvetica, sans-serif; /* Specify font family */
     line-height: 1.5;
-    background-color: papayawhip;
+    background-color: papayawhip; /* Set background color */
 }
 
-.header h1 {
-    margin: 1em;
-    text-align: center;
-    font-style: italic;
-    text-decoration: underline;
-    outline: 3px dashed;
-    outline-offset: -1px;
+/* Styling for navigation */
+.nav {
+    background-color: #ecbd83ff; /* Set background color */
+    color: rgb(0, 0, 0); /* Set text color */
+    padding: 5px; 
+    margin: 10px; 
+}
+
+/* Styling for header */
+.header {
+    margin: 1em; /* Set margin */
+    text-align: center; /* Center-align text */
+    list-style: none; /* Remove default list style */
+    font-style: italic; /* Apply italic font style */
+    text-decoration: underline; /* Apply underline decoration */
+    outline: 3px dashed; /* Add dashed outline */
+    outline-offset: -1px; /* Offset the outline */
 }
 
 .header ul {
-    text-align: center;
-    list-style: none;
-    padding: 0;
+    text-align: center; 
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
 }
 
+/* Styling for h2 elements */
 h2 {
-    text-align: center;
-    text-decoration: underline;
+    text-align: center; 
+    text-decoration: underline; /* Apply underline decoration */
 }
 
+/* Styling for links */
 a {
-    color: hsl(207, 44%, 49%);
+    color: #9a301dff; /* Set link color */
 }
 
 a:visited {
-    color: purple;
+    color: rgba(154, 48, 29, 0.555); /* Set visited link color */
 }
 
 a:hover, a:focus {
-    color: hsl(207, 44%, 49% 0.8%);
+    color: hsl(207, 44%, 49% 0.8%); /* Set link color on hover or focus */
 }
 
 a:active {
-    color: red;
+    color: #b6967cff; /* Set link color on active state */
 }
 
+/* Styling for tables */
 .table {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-collapse: collapse;
-    padding: 0.5rem;
-    outline: 2px solid;
-    outline-offset: -1px;
-    width: 100%;
-    outline: 2px solid red;
-    outline-offset: -6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Specify font family */
+    padding: 0.5rem; /* Add padding */
+    outline: 2px solid; /* Add solid outline */
+    outline-offset: -1px; /* Offset the outline */
+    width: 100%; /* Set width */
+    outline: 2px solid #9a301dff; /* Set outline color */
+    outline-offset: -3px; /* Offset the outline */
 }
-
 
 .table th {
-    background-color: #d4505048;
-    border: 2px solid;
-    padding: 8px;
-    text-align: center;
+    background-color: #ecbd83ff; /* Set background color for table header */
+    border: 2px solid; /* Add solid border */
+    padding: 8px; /* Add padding */
+    text-align: center; /* Center-align text */
 }
 
 .table tr {
-    border: 2px solid;
+    border: 2px solid; /* Add solid border */
 }
 
 .table td {
-    padding: 8px;
-    border: 2px solid;
+    padding: 8px; /* Add padding */
+    border: 2px solid; /* Add solid border */
 }
 
 .table caption {
-    outline: 2px solid;
-    background-color: cornflowerblue;
-    font-size: 1.2em;
-    font-weight: bold;
-    text-align: center;
+    outline: 2px solid; /* Add solid outline */
+    background-color: #b6967cff; /* Set background color for table caption */
+    font-size: 1.2em; /* Set font size */
+    font-weight: bold; /* Apply bold font weight */
+    text-align: center; /* Center-align text */
 }
 
+/* Styling for images */
 .image {
-    display: block;
-    margin: auto;
-    border: 4px dashed;
+    display: block; /* Display as block element */
+    margin: auto; /* Center-align horizontally */
+    padding: auto; /* Center-align vertically */
+    border: 4px dashed; /* Add dashed border */
+    border-radius: 20px; /* Apply border radius */
 }
 
+/* Styling for figure captions */
 figcaption {
-    text-align: center;
+    text-align: center; /* Center-align text */
 }
 
+/* Styling for form fieldsets */
 form fieldset {
-    text-align: center;
+    text-align: center; /* Center-align text */
 }
 
-footer{
-    text-align: center;
+/* Styling for footer */
+footer {
+    text-align: center; /* Center-align text */
+    background-color: #ecbd83ff; /* Set background color */
+    color: rgb(0, 0, 0); /* Set text color */
+    padding: 1px; /* Add padding */
+    margin: 1em; /* Add margin */
+}
+
+/* Styling for the table */
+.palette {
+    border: solid;
+    margin: 0 auto; /* Center the table horizontally */
+    height: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow to the table */
+    color: #333; /* Set text color */
+}
+
+/* Styling for the table cells (pillars) */
+.palette td {
+    border: solid;
+    padding: 35px; /* Add padding */
+    border-width: 2px; /* Adjust the width of the dashed margin border */
+    border-radius: 25px;
+}
+
+.pillar1 {
+    background-color: #fff1d6ff; /* background color for pillar 1 */
+}
+
+.pillar2 {
+    background-color: #ecbd83ff; /* background color for pillar 2 */
+}
+
+.pillar3 {
+    background-color: #b6967cff; /* background color for pillar 3 */
+}
+
+.pillar4 {
+    background-color: #c6612fff; /* background color for pillar 4 */
+}
+
+.pillar5 {
+    background-color: #9a301dff; /* background color for pillar 5 */
 }

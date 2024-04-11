@@ -12,9 +12,54 @@
 
 <body>
     <header class="header">
+        <nav aria-label="primary-navigation" class="nav" id="nav">
+            <h1>Incorporating Artificial Intelligence with Woodworking</h1>
+            <h2>Menu</h2>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
     </header>
+
     <main>
+        <h2>
+            Description:</h2>
+        <p>
+            The styling applied to the table cells (pillars) in this part of the page utilizes the CSS box model to
+            control the layout and appearance of each cell. The border property sets a solid border around each cell,
+            while the padding property adds space between the content of the cell and its border. The
+            border-width property adjusts the width of the border, and the border-radius property rounds the corners of
+            each cell, giving them a smoother appearance.
+        <table class="palette">
+            <tr>
+                <td class="pillar1">papaya-whip</td>
+                <td class="pillar2">buff</td>
+                <td class="pillar3">lion</td>
+                <td class="pillar4">tawny</td>
+                <td class="pillar5">burnt-umber</td>
+            </tr>
+        </table>
+        <figure><img class="image" src="../img/boxModel.png" alt="boxModel" title="tables box model" width="500" height="183">
+            <figcaption><a href="../img/boxModel.png">DevTools Box Model</a></figcaption>
+        </figure>
+        
+        <h2>CSS Specificity:</h2>
+        <p>
+            The CSS specificity of the .palette td ruleset is based on the number of
+            ID selectors, class selectors, and element selectors. In this case, there is one class selector (palette)
+            and one element selector (td), This specificity is: 0,1,1.</p>
+        <p>
+            A specificity of 0,1,1 means that this selector is less specific than one with an ID selector but more
+            specific than a selector with only element selectors. Styles defined for .palette td will be applied to all table cells within the .palette
+            container, but they may be overridden by more specific selectors with higher specificity.
+        </p>
     </main>
+
     <footer>
         <p><a href="index.html">Home</a></p>
         <p>&lt;&lt;&lt; &copy;<a href="about.html">Hector Natareno</a>&gt;&gt;&gt;</p>
@@ -22,7 +67,6 @@
         <p>
             <a href="#">Back to Top</a>
         </p>
-        
     </footer>
 </body>
 
