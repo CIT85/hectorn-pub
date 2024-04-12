@@ -1,9 +1,9 @@
-/* CSS coolors template */
+/* CSS coolors template 
 --papaya-whip: #fff1d6ff;
 --buff: #ecbd83ff;
 --lion: #b6967cff;
 --tawny: #c6612fff;
---burnt-umber: #9a301dff;
+--burnt-umber: #9a301dff; */
 
 /* Apply styles to the entire page */
 body {
@@ -54,7 +54,7 @@ a:visited {
 }
 
 a:hover, a:focus {
-    color: hsl(207, 44%, 49% 0.8%); /* Set link color on hover or focus */
+    color: rgba(154, 48, 29, 0.288); /* Set link color on hover or focus */
 }
 
 a:active {
@@ -100,7 +100,7 @@ a:active {
 .image {
     display: block; /* Display as block element */
     margin: auto; /* Center-align horizontally */
-    padding: auto; /* Center-align vertically */
+    padding: 10px; /* Center-align vertically */
     border: 4px dashed; /* Add dashed border */
     border-radius: 20px; /* Apply border radius */
 }
