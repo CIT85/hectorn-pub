@@ -24,6 +24,7 @@ html {
   border: 2px solid black;
   text-align: center;
 }
+
 /* setting background for site */
 body {
   font-size: 20px;
@@ -76,15 +77,23 @@ a:hover {
   color: #191df0; /* Change link text color on hover */
 }
 
+.header1 a:hover {
+  /* Your hover styles here */
+  color: gold; /* For example, change the color to red on hover */
+  text-decoration: underline; /* Underline the text on hover */
+  /* Add more styles as needed */
+}
+
 /* set container for main content on site */
 .container {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  width: 80%;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  padding-bottom: 1px;
+  width: 85%;
   background: linear-gradient(to top, #a9a9a9, #596cd8, #191df0);
   border-radius: 10px;
 }
@@ -102,7 +111,7 @@ a:hover {
   color: papayawhip; /* Set text color */
   font-weight: bold; /* Make text bold */
   font-style: italic; /* Make text italic */
-  padding: 10px; /* Add padding */
+  padding: 19px; /* Add padding */
 }
 
 .navbar a:hover {
@@ -125,7 +134,33 @@ a:hover {
   font-size: 14px;
   color: #a9a9a9;
 }
+/* style for form declaration subtitle */
+.subtitle2 {
+  background: none;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  color: #a9a9a9;
+}
 
+.form {
+  background-color: rgba(255, 217, 0, 0.541);
+}
+
+/* contact form - message */
+.message {
+  width: 80%;
+  height: 100px; 
+  padding: 8px;
+  font-size: 14px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  resize: both;
+}
+
+.me {
+  text-align: center;
+}
 /* Styling for header1*/
 .header1 {
   display: grid;
@@ -160,6 +195,15 @@ a:hover {
 .footer {
   font-weight: bold; /* Makes text bold */
   text-align: center; /* Center aligns text */
+}
+
+.form{
+  text-align: center;
+}
+
+.footer p {
+  margin: 1px;
+  padding: 1px;
 }
 
 .header1,
@@ -309,7 +353,11 @@ article {
   text-align: center;
 }
 
-.history h2 + p {
+.grid2 h2 + p {
+  color: papayawhip;
+}
+
+.grid4 p {
   color: papayawhip;
 }
 
@@ -367,7 +415,6 @@ article {
   grid-area: 2 / 1 / 3/ 3;
 }
 .grid4-child1 {
-  color: papayawhip;
   grid-area: 1 / 1 / 2 / 7;
 }
 
